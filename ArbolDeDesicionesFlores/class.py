@@ -22,7 +22,7 @@ dot_data = tree.export_graphviz(clf, out_file = None,
                                     rounded=True,
                                     special_characters=True)
 graph = graphviz.Source(dot_data)
-graph.render('irisColor', format='png')
+graph.render('./img/irisColor', format='png')
 
 # 
 img = Image(filename=('irisColor.png'))

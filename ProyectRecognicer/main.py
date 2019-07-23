@@ -33,7 +33,7 @@ while(True):
 
     if k%256 == 32:
         # SPACE pressed
-        img_name = "picture{}.png".format(img_counter)
+        img_name = "./img/picture{}.png".format(img_counter)
         # cv2.imwrite(img_name, img)
         cv2.imwrite(img_name, roi_color)
         print("{} written!".format(img_name))
